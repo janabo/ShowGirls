@@ -15,6 +15,7 @@ import android.widget.TextView;
 import com.janabo.umengshare.wxapi.Constants;
 import com.qq.e.ads.splash.SplashAD;
 import com.qq.e.ads.splash.SplashADListener;
+import com.umeng.analytics.MobclickAgent;
 
 import java.util.List;
 
@@ -111,12 +112,14 @@ public class SplashActivity extends Activity implements SplashADListener,EasyPer
     @Override
     protected void onPause() {
         super.onPause();
+        MobclickAgent.onPause(getApplicationContext());
         canJump = false;
     }
 
     @Override
     protected void onResume() {
         super.onResume();
+        MobclickAgent.onResume(getApplicationContext());
         if (canJump) {
             next();
         }

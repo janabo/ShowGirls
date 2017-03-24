@@ -26,12 +26,13 @@ public class MyApplication extends Application{
         Fresco.initialize(this, ImagePipelineConfigUtils.getDefaultImagePipelineConfig(this));
         DeviceUtil.initialize(this);
         UMShareAPI.get(this);
+
     }
 
     //各个平台的配置，建议放在全局Application或者程序入口
     {
         PlatformConfig.setWeixin("wxdc1e388c3822c80b", "3baf1193c85774b3fd9d18447d76cab0");
-        PlatformConfig.setQQZone("100424468", "c7394704798a158208a74ab60104f0ba");
+        PlatformConfig.setQQZone("1105987743", "c7394704798a158208a74ab60104f0ba");
 
     }
 }

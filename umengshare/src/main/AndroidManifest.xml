@@ -42,6 +42,7 @@
             android:name="UMENG_APPKEY"
             android:value="58d4cd4b717c194816000eff" >
         </meta-data>
+        <meta-data android:value="yyb" android:name="UMENG_CHANNEL"/>
 
         <service android:name="com.qq.e.comm.DownloadService" android:exported="false" />
         <activity android:name="com.qq.e.ads.ADActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
