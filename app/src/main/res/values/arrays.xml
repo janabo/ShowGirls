@@ -12,11 +12,11 @@
         <item>风景</item>
         <item>唯美</item>
         <item>宠物</item>
-        <item>旅游胜地</item>
-        <item>动漫壁纸</item>
-        <item>电影壁纸</item>
-        <item>游戏壁纸</item>
-        <item>体育壁纸</item>
+        <!--<item>旅游胜地</item>-->
+        <!--<item>动漫壁纸</item>-->
+        <!--<item>电影壁纸</item>-->
+        <!--<item>游戏壁纸</item>-->
+        <!--<item>体育壁纸</item>-->
         <item>苍井空</item>
     </string-array>
 </resources>

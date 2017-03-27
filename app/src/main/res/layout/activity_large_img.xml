@@ -24,7 +24,8 @@
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_marginRight="10dp"
-            android:src="@mipmap/large_img_download"/>
+            android:src="@mipmap/large_img_download"
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/large_img_qq_share"
@@ -40,7 +41,8 @@
             android:layout_height="20dp"
             android:layout_marginRight="10dp"
             android:layout_toEndOf="@+id/large_img_qq_share"
-            android:src="@mipmap/large_img_weixin_share"/>
+            android:src="@mipmap/large_img_weixin_share"
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/large_img_sina_share"
